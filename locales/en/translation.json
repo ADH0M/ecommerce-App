@@ -1,0 +1,41 @@
+{
+  "Welcome to React": "Welcome to React and react-i18next",
+  "Login title":"Welcome to login ",
+  "inputUset":"user name",
+  "EmailPlaceHolder":"enter your email",
+  "PasswordPlaceHolder":".........",
+  "LoginSubmit":"Submit",
+  "FieldRequire":"required",
+  "EmailLabel":"Email",
+  "PasswordLabel":"password",
+  "RemeberLabel":"Remember Me",
+  "signupEmail":"Email",
+  "signupPassword":"password",
+  "signupFirstname":"firstname",
+  "signupLastname":"lastname",
+  "signupConfirm":"Confirm",
+  "InvaildEmail":"Invaild Email",
+  "notvaild":"Not Vaild",
+  "TShirt":"T-Shirt",
+  "Tops":"Tops",
+  "ShopTitle1":"Summer",
+  "ShopTitle2":"Value Pack",
+  "ShopCool":"Cool",
+  "ShopColorful":"Colorful",
+  "ShopComf":"Comf",
+  "Shopbtn":"Shop Now",
+  "NewArrivals":"new Arrivals",
+  "BigSavingZone":"Big Saving Zone",
+  "ShopStaticSectionTitle1":"we mede your everyday",
+  "ShopStaticSectionTitle2":"fashion better!",
+  "ShopStaticSectionDescription":"in our journey to improve everday fashion , euphoria presents everday wear range - comfortable & affordable fashion 24/7",
+  "CategoriesForMen":"Categories For Men",
+  "CategoriesForWomen":"Categories For Women"
+
+
+
+
+
+
+
+}
