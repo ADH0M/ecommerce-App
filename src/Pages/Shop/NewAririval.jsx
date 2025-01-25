@@ -78,7 +78,7 @@ const NewAririval = () => {
           ))
         )}
         <button
-          className="absolute -right-2  top-1/2 bg-gray-600 hover:bg-opacity-35  -translate-y-1/2 bg-transparent   rounded-full text-xl text-blue-50"
+          className="absolute top-1/2 -right-2 -translate-y-1/2  rounded-full bg-gray-600 hover:bg-opacity-35 text-xl text-blue-50"
           onClick={handleRightSlid}
           disabled={start?.end === state.data.length}
         >
