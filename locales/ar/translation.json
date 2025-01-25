@@ -30,7 +30,16 @@
   "ShopStaticSectionTitle2":"بشكل أفضل!",
   "ShopStaticSectionDescription":"في رحلتنا لتحسين الموضة الدائمة، تقدم النشوة مجموعة ملابس دائمة - موضة مريحة وبأسعار معقولة 24/7",
   "CategoriesForMen":"ملابس الرجال",
-  "CategoriesForWomen":"ملابس النساء"
+  "CategoriesForWomen":"ملابس النساء",
+  "LEGAL":"قانوني",
+  "Imprint":"بصمة",
+  "Privcay":"سياسة الخصوصية",
+  "TermsOfUse":"شروط الاستخدام",
+  "Newsletter":"النشرة الإخبارية",
+  "Subscribetoournewsletter":"اشترك في نشرتنا الإخبارية",
+  "Subscribe":"اشترك",
+  "FooterPlaceholder": "إدخال البريد الإلكتروني",
+  "Allrightsreserved":"جميع الحقوق محفوظة."
 
 
 }
