@@ -5,6 +5,10 @@
 @tailwind utilities;
 
 
+.imageScroll::-webkit-scrollbar{
+    display: none;
+}
+
 @layer base{
     html {
         font-family: 'Poppins' ,"sans-serif";
@@ -23,4 +27,5 @@
     .username-label{@apply block text-lg text-blue-600}
     .signup-inputs{@apply w-full py-2 px-2 rounded-[4px]  outline-none text-blue-600 border border-blue-400 }
     .shop-arrow {@apply text-cyan-600 font-extrabold text-5xl text-opacity-55 hover:text-opacity-85 cursor-pointer }
+    
 };

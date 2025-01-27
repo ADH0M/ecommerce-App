@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  React, { useEffect, useState } from "react";
 import { Link } from "react-router";
 import { SlSettings } from "react-icons/sl";
 import useLanguage from "../../Hooks/useLanguage";
@@ -7,10 +7,28 @@ import useLanguage from "../../Hooks/useLanguage";
 const Navbar = () => {
     const [openSetting ,setOpenSettings ] = useState(false);
     const { changeLanguage } = useLanguage();
+    const [isSticky, setIsSticky] = useState(false);
+
+  const handleScroll = () => {
+    if (window.scrollY > 90) { 
+      setIsSticky(true);
+    } else {
+      setIsSticky(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
 
   return (
 
-    <nav className={` w-full bg-gray-50 shadow-md  `} dir="ltr">
+    <nav className={`w-full bg-gray-50 shadow-md ${isSticky ? "fixed translate-y-0" : 'sticky translate-y-3 top-0'} z-[999] transition-transform duration-500 ease-out`} dir="ltr">
+
       <div className="w-full container mx-auto overflow-hidden h-16 sm:px-2  ">
 
       <div className="flex justify-evenly items-center  w-full h-full  ">
@@ -51,4 +69,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default React.memo(Navbar);
