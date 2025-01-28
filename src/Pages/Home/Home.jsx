@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { image1, image2, image6 } from "../menSection/index";
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from "react-icons/ai";
 import Itmes from "./Items";
+import HomeHeader from "./HomeHeader";
 
 const images = [image1, image2, image6];
 
@@ -35,7 +36,17 @@ const Home = () => {
   } ,[]);
 
   return (
-    // <div className="h-screen w-full bg-gray-200 flex justify-center items-center">
+    <div className=" mx-auto w-full ">
+        <HomeHeader/>
+    </div>
+  );
+};
+
+export default Home;
+
+// function trySlider(){
+//     return (
+         // <div className="h-screen w-full bg-gray-200 flex justify-center items-center">
     //   <div className="w-full overflow-hidden relative">
         
     //     <div
@@ -68,10 +79,5 @@ const Home = () => {
     //     </button>
     //   </div>
     // </div>
-    <div className="h-screen m-10">
-        <Itmes/>
-    </div>
-  );
-};
-
-export default Home;
+//     )
+// }

@@ -40,7 +40,7 @@ const Slider = () => {
 
 
   return (
-    <div className="h-[93vh] w-full bg-gray-200 flex justify-center items-center" dir="ltr">
+    <div className="h-[93vh] w-full bg-gray-200 flex justify-center items-center select-none" dir="ltr">
       <div className="w-full overflow-hidden relative h-full">
         <div
           className="flex transition-transform duration-300 ease-linear relative h-full"

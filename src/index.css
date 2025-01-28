@@ -27,5 +27,5 @@
     .username-label{@apply block text-lg text-blue-600}
     .signup-inputs{@apply w-full py-2 px-2 rounded-[4px]  outline-none text-blue-600 border border-blue-400 }
     .shop-arrow {@apply text-cyan-600 font-extrabold text-5xl text-opacity-55 hover:text-opacity-85 cursor-pointer }
-    
+    .overLay {@apply absolute top-0 bottom-0 left-0 right-0 opacity-20 bg-opacity-30 z-40 w-full h-full}
 };
