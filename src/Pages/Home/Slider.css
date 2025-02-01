@@ -1,0 +1,22 @@
+/* Slider.css */
+.carousel {
+    overflow: hidden;
+    cursor: grab;
+  }
+  
+  .inner-carousel {
+    display: flex;
+  }
+  
+  .item {
+    min-height: 25rem;
+    min-width: 20rem;
+    padding: 40px 20px;
+  }
+  .image {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    pointer-events: none;
+  }
+  
